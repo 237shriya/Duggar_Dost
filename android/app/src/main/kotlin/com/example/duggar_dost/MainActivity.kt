@@ -1,4 +1,4 @@
-package com.example.duggar_dost
+package com.CodeQuintet.duggar_dost
 
 import io.flutter.embedding.android.FlutterActivity
 
