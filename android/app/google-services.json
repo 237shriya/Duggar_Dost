@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "307593810216",
+    "project_id": "duggar-dost-d7d74",
+    "storage_bucket": "duggar-dost-d7d74.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:307593810216:android:dc56f53a00a8c795bd401d",
+        "android_client_info": {
+          "package_name": "com.CodeQuintet.duggar_dost"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqBLtndROIS9myQca19FlilwpiTTujUM4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
