@@ -32,13 +32,13 @@ class _LoginPageState extends State<LoginPage> {
                 radius: 50,
                 backgroundColor: Colors.orange,
                 child: Icon(
-                  Icons.app_registration, // Replace with your app logo
+                  Icons.app_registration,
                   size: 50,
                   color: Colors.white,
                 ),
               ),
             ),
-            const SizedBox(height: 20), // Space after logo
+            const SizedBox(height: 20),
 
             // Welcome text
             Center(
@@ -100,9 +100,9 @@ class _LoginPageState extends State<LoginPage> {
 
 
 
-            const SizedBox(height: 24), // Space before social buttons
+            const SizedBox(height: 24),
 
-            // Social sign-in buttons
+
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [

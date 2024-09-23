@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'login_page.dart';
+import 'otp_page.dart';
 
 class SignUpPage extends StatefulWidget {
   const SignUpPage({super.key});
@@ -78,7 +79,12 @@ class _SignUpPageState extends State<SignUpPage> {
 
                 ElevatedButton(
                   onPressed: () {
-                    // Add action for sign-up
+                    Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                        builder: (context) => const OtpPage(),
+                    ),
+                    );
                   },
                   style: ElevatedButton.styleFrom(
                     padding: const EdgeInsets.all(12),
